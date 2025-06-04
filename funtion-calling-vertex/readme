@@ -1,0 +1,23 @@
+# Aplikasi ACTI
+
+## Environment Variables
+
+Aplikasi ini membutuhkan beberapa API key yang harus disimpan dalam file `.env`:
+
+Dapatkan API key dari:
+- OpenWeatherMap: https://openweathermap.org/api
+- Google Places API: https://developers.google.com/maps/documentation/places/web-service
+- Exchange Rate API: https://exchangerate.host/
+
+
+GOOGLE_APPLICATION_CREDENTIALS=d:\SMP\action items\key.json
+
+GOOGLE_GENAI_USE_VERTEXAI=1
+GOOGLE_CLOUD_PROJECT=arboreal-avatar-458607-t7
+GOOGLE_CLOUD_LOCATION=us-central1
+
+OPEN_WEATHER_API_KEY="APi Key"
+GOOGLE_PLACE_API_KEY="API Key"
+CURRENCY_API_KEY="API Key"
+GOOGLE_SEARCH_API_KEY="API Key"
+GOOGLE_SEARCH_CX="API Key"
